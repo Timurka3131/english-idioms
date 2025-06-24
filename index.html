@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Английские идиомы с примерами</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #3498db;
+        }
+        h2 {
+            color: #2980b9;
+        }
+        .idiom-card {
+            background: white;
+            border-left: 4px solid #3498db;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 0 5px 5px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .idiom-card:hover {
+            transform: translateX(5px);
+        }
+        .idiom {
+            font-weight: bold;
+            color: #2980b9;
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+        .literal {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            font-style: italic;
+        }
+        .meaning {
+            margin: 10px 0;
+            padding-left: 10px;
+            border-left: 2px solid #e0e0e0;
+        }
+        .example {
+            background: #e8f4fc;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-size: 0.95em;
+        }
+        .translation {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        .category {
+            margin-top: 40px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #3498db;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .category-title {
+            margin: 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+        .search-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+        #search {
+            padding: 8px 15px;
+            width: 60%;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            font-size: 16px;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Английские идиомы с примерами и переводами</h1>
+    
+    <div class="search-container">
+        <input type="text" id="search" placeholder="Поиск идиом...">
+    </div>
+
+    <p>Идиомы - это устойчивые выражения, смысл которых не складывается из значений отдельных слов. Здесь вы найдете популярные английские идиомы с объяснениями и примерами использования.</p>
+
+    <h2 class="category">
+        <span class="category-title">🔹 Популярные идиомы</span>
+        <span class="idiom-count">15 идиом</span>
+    </h2>
+    
+    <div class="idiom-card">
+        <div class="idiom">Break a leg</div>
+        <div class="literal">Дословно: "Сломай ногу"</div>
+        <div class="meaning"><strong>Значение:</strong> Пожелание удачи (особенно перед выступлением)</div>
+        <div class="example">
+            <strong>Пример:</strong> "You have your piano recital tonight? Break a leg!"<br>
+            <span class="translation">Перевод:</span> "У тебя сегодня фортепианный концерт? Ни пуха ни пера!"
+        </div>
+    </div>
+    
+    <div class="idiom-card">
+        <div class="idiom">Hit the nail on the head</div>
+        <div class="literal">Дословно: "Ударить гвоздь по шляпке"</div>
+        <div class="meaning"><strong>Значение:</strong> Точно угадать, попасть в точку</div>
+        <div class="example">
+            <strong>Пример:</strong> "When you said the problem was lack of communication, you hit the nail on the head."<br>
+            <span class="translation">Перевод:</span> "Когда ты сказал, что проблема в отсутствии коммуникации, ты попал в самую точку."
+        </div>
+    </div>
+    
+    <div class="idiom-card">
+        <div class="idiom">Let the cat out of the bag</div>
+        <div class="literal">Дословно: "Выпустить кота из мешка"</div>
+        <div class="meaning"><strong>Значение:</strong> Выдать секрет, проболтаться</div>
+        <div class="example">
+            <strong>Пример:</strong> "It was supposed to be a surprise party, but Sarah let the cat out of the bag."<br>
+            <span class="translation">Перевод:</span> "Это должен был быть сюрприз-вечеринка, но Сара проболталась."
+        </div>
+    </div>
+
+    <div class="idiom-card">
+        <div class="idiom">Burn the midnight oil</div>
+        <div class="literal">Дословно: "Жчь полуночное масло"</div>
+        <div class="meaning"><strong>Значение:</strong> Поздно засиживаться за работой или учебой</div>
+        <div class="example">
+            <strong>Пример:</strong> "I have to burn the midnight oil to finish this project on time."<br>
+            <span class="translation">Перевод:</span> "Мне придется засидеться допоздна, чтобы закончить этот проект вовремя."
+        </div>
+    </div>
+
+    <div class="idiom-card">
+        <div class="idiom">The ball is in your court</div>
+        <div class="literal">Дословно: "Мяч на вашей стороне корта"</div>
+        <div class="meaning"><strong>Значение:</strong> Теперь ваша очередь действовать или принимать решение</div>
+        <div class="example">
+            <strong>Пример:</strong> "I've made my offer, now the ball is in your court."<br>
+            <span class="translation">Перевод:</span> "Я сделал свое предложение, теперь ваша очередь принимать решение."
+        </div>
+    </div>
+
+    <h2 class="category">
+        <span class="category-title">💰 Идиомы о деньгах</span>
+        <span class="idiom-count">12 идиом</span>
+    </h2>
+    
+    <div class="idiom-card">
+        <div class="idiom">Cost an arm and a leg</div>
+        <div class="literal">Дословно: "Стоить руку и ногу"</div>
+        <div class="meaning"><strong>Значение:</strong> Очень дорого стоить</div>
+        <div class="example">
+            <strong>Пример:</strong> "Getting my car repaired is going to cost an arm and a leg!"<br>
+            <span class="translation">Перевод:</span> "Ремонт моей машины будет стоить бешеных денег!"
+        </div>
+    </div>
+    
+    <div class="idiom-card">
+        <div class="idiom">Bring home the bacon</div>
+        <div class="literal">Дословно: "Приносить домой бекон"</div>
+        <div class="meaning"><strong>Значение:</strong> Зарабатывать на жизнь, содержать семью</div>
+        <div class="example">
+            <strong>Пример:</strong> "Now that both parents work, they both bring home the bacon."<br>
+            <span class="translation">Перевод:</span> "Теперь, когда работают оба родителя, они оба содержат семью."
+        </div>
+    </div>
+
+    <div class="idiom-card">
+        <div class="idiom">Go from rags to riches</div>
+        <div class="literal">Дословно: "От тряпок к богатству"</div>
+        <div class="meaning"><strong>Значение:</strong> Разбогатеть, выйти из нищеты</div>
+        <div class="example">
+            <strong>Пример:</strong> "This entrepreneur went from rags to riches in just five years."<br>
+            <span class="translation">Перевод:</span> "Этот предприниматель разбогател (из грязи в князи) всего за пять лет."
+        </div>
+    </div>
+
+    <div class="idiom-card">
+        <div class="idiom">Penny-pincher</div>
+        <div class="literal">Дословно: "Щипатель пенни"</div>
+        <div class="meaning"><strong>Значение:</strong> Скряга, очень бережливый человек</div>
+        <div class="example">
+            <strong>Пример:</strong> "My uncle is such a penny-pincher - he reuses tea bags!"<br>
+            <span class="translation">Перевод:</span> "Мой дядя такой скряга - он использует чайные пакетики по несколько раз!"
+        </div>
+    </div>
+
+    <h2 class="category">
+        <span class="category-title">😓 Идиомы о трудностях</span>
+        <span class="idiom-count">10 идиом</span>
+    </h2>
+    
+    <div class="idiom-card">
+        <div class="idiom">Between a rock and a hard place</div>
+        <div class="literal">Дословно: "Между скалой и твердым местом"</div>
+        <div class="meaning"><strong>Значение:</strong> Между двух огней, в безвыходном положении</div>
+        <div class="example">
+            <strong>Пример:</strong> "I'm between a rock and a hard place - if I take this job, I'll have to move, but if I don't, I'll stay unemployed."<br>
+            <span class="translation">Перевод:</span> "Я между двух огней - если я возьму эту работу, мне придется переехать, а если не возьму, останусь без работы."
+        </div>
+    </div>
+    
+    <div class="idiom-card">
+        <div class="idiom">Bite the bullet</div>
+        <div class="literal">Дословно: "Кусить пулю"</div>
+        <div class="meaning"><strong>Значение:</strong> Стиснуть зубы и терпеть</div>
+        <div class="example">
+            <strong>Пример:</strong> "I don't want to do this presentation, but I'll just have to bite the bullet."<br>
+            <span class="translation">Перевод:</span> "Я не хочу делать эту презентацию, но придется стиснуть зубы и сделать."
+        </div>
+    </div>
+
+    <div class="idiom-card">
+        <div class="idiom">Throw in the towel</div>
+        <div class="literal">Дословно: "Бросить полотенце"</div>
+        <div class="meaning"><strong>Значение:</strong> Сдаться, признать поражение</div>
+        <div class="example">
+            <strong>Пример:</strong> "After years of trying to make the business work, he finally threw in the towel."<br>
+            <span class="translation">Перевод:</span> "После многих лет попыток наладить бизнес он наконец сдался."
+        </div>
+    </div>
+
+    <h2 class="category">
+        <span class="category-title">🐾 Идиомы о животных</span>
+        <span class="idiom-count">8 идиом</span>
+    </h2>
+
+    <div class="idiom-card">
+        <div class="idiom">The elephant in the room</div>
+        <div class="literal">Дословно: "Слон в комнате"</div>
+        <div class="meaning"><strong>Значение:</strong> Очевидная проблема, которую все избегают обсуждать</div>
+        <div class="example">
+            <strong>Пример:</strong> "His drinking problem is the elephant in the room that no one wants to talk about."<br>
+            <span class="translation">Перевод:</span> "Его проблема с алкоголем - это очевидная проблема, которую никто не хочет обсуждать."
+        </div>
+    </div>
+
+    <div class="idiom-card">
+        <div class="idiom">Let sleeping dogs lie</div>
+        <div class="literal">Дословно: "Не буди спящих собак"</div>
+        <div class="meaning"><strong>Значение:</strong> Не поднимать старых проблем, не будить лихо</div>
+        <div class="example">
+            <strong>Пример:</strong> "I know what he did was wrong, but it's been years - let sleeping dogs lie."<br>
+            <span class="translation">Перевод:</span> "Я знаю, что он поступил неправильно, но прошли годы - не буди лихо, пока оно тихо."
+        </div>
+    </div>
+
+    <div class="idiom-card">
+        <div class="idiom">A little bird told me</div>
+        <div class="literal">Дословно: "Маленькая птичка мне сказала"</div>
+        <div class="meaning"><strong>Значение:</strong> Я узнал это из неназванного источника</div>
+        <div class="example">
+            <strong>Пример:</strong> "A little bird told me it's your birthday today!"<br>
+            <span class="translation">Перевод:</span> "Мне тут намекнули, что сегодня твой день рождения!"
+        </div>
+    </div>
+
+    <h2 class="category">
+        <span class="category-title">⏳ Идиомы о времени</span>
+        <span class="idiom-count">6 идиом</span>
+    </h2>
+
+    <div class="idiom-card">
+        <div class="idiom">Once in a blue moon</div>
+        <div class="literal">Дословно: "Один раз при голубой луне"</div>
+        <div class="meaning"><strong>Значение:</strong> Очень редко</div>
+        <div class="example">
+            <strong>Пример:</strong> "He only visits his parents once in a blue moon."<br>
+            <span class="translation">Перевод:</span> "Он навещает родителей очень редко (раз в сто лет)."
+        </div>
+    </div>
+
+    <div class="idiom-card">
+        <div class="idiom">Against the clock</div>
+        <div class="literal">Дословно: "Против часов"</div>
+        <div class="meaning"><strong>Значение:</strong> В спешке, с ограниченным временем</div>
+        <div class="example">
+            <strong>Пример:</strong> "We're working against the clock to finish before the deadline."<br>
+            <span class="translation">Перевод:</span> "Мы работаем в спешке, чтобы успеть до дедлайна."
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2023 Английские идиомы | Для изучающих английский язык</p>
+        <p>Контакт: idioms@example.com | Всего идиом на сайте: <span id="total-idioms">51</span></p>
+    </footer>
+
+    <script>
+        // Простой поиск по идиомам
+        document.getElementById('search').addEventListener('input', function(e) {
+            const searchTerm = e.target.value.toLowerCase();
+            const idiomCards = document.querySelectorAll('.idiom-card');
+            
+            idiomCards.forEach(card => {
+                const idiomText = card.textContent.toLowerCase();
+                if (idiomText.includes(searchTerm)) {
+                    card.classList.remove('hidden');
+                } else {
+                    card.classList.add('hidden');
+                }
+            });
+        });
+
+        // Подсчет идиом для каждой категории
+        document.addEventListener('DOMContentLoaded', function() {
+            const categories = document.querySelectorAll('.category');
+            
+            categories.forEach(category => {
+                const categoryContainer = category.parentElement;
+                const idiomCount = categoryContainer.querySelectorAll('.idiom-card').length;
+                const countElement = category.querySelector('.idiom-count');
+                
+                if (countElement) {
+                    countElement.textContent = `${idiomCount} идиом`;
+                }
+            });
+
+            // Общий подсчет идиом
+            const totalIdioms = document.querySelectorAll('.idiom-card').length;
+            document.getElementById('total-idioms').textContent = totalIdioms;
+        });
+    </script>
+</body>
+</html>
